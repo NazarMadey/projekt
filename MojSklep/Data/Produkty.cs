@@ -19,7 +19,8 @@ namespace MojSklep.Data
             int stockAmount = 1;
             bool isBestseller = false;
             string color = "";
-            string description; 
+            string description;
+        string all = "";
         /// <summary>
         /// Oznaznacza to że ProdukttId będzie kluczen głównym danych w Tabelie Produkty 
         /// </summary>
@@ -32,7 +33,15 @@ namespace MojSklep.Data
         /// <summary>
         /// atrybuty xml które będą sterowały procesem serializacji 
         /// </summary>
-            [XmlElement("nazwa-produktu")]  
+        /// 
+
+
+        public string All
+        {
+            get { return all; }
+            set { all = value; }
+        }
+        [XmlElement("nazwa-produktu")]  
             public string ProductName
             {
                 get { return productName; }
