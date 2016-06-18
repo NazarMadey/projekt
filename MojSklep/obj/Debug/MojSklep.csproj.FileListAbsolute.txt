@@ -26,3 +26,6 @@
 \\Mac\Home\Documents\Visual Studio 2013\Projects\MojSklep\MojSklep\bin\Debug\nunit.util.dll
 \\Mac\Home\Documents\Visual Studio 2013\Projects\MojSklep\MojSklep\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
 \\Mac\Home\Documents\Visual Studio 2013\Projects\MojSklep\MojSklep\bin\Debug\nunit.framework.xml
+N:\MojSklep\MojSklep\bin\Debug\MojSklep.exe.config
+N:\MojSklep\MojSklep\obj\Debug\MojSklep.exe
+N:\MojSklep\MojSklep\obj\Debug\MojSklep.pdb
