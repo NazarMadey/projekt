@@ -19,7 +19,7 @@ namespace MojSklep.Data
         int discount = 0;
         bool vip = false;
         string telNumber = "";
-        string nazwa = "";
+        string typ = "";
         /// <summary>
         ///  Oznaznacza to że KlientId będzie kluczen głównym danych w Tabelie Klienci 
         /// </summary>
@@ -36,10 +36,10 @@ namespace MojSklep.Data
         /// 
 
 
-        public string Nazwa
+        public string Typ
         {
-            get { return nazwa; }
-            set { nazwa = value; }
+            get { return typ; }
+            set { typ = value; }
         }
 
         [XmlElement("nazwa-klienta")]  
